@@ -1,1 +1,1 @@
-https://Kseniya-17-07-20.github.io/rsschool-cv/
+https://kseniya-17-07-20.github.io/rsschool-cv/
