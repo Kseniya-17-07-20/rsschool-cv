@@ -24,21 +24,28 @@ body{
 }
 
 .header {
-  background-color: rgb(177, 185, 225);
+  max-width: 1440px;
+  background-color: rgb(223, 160, 160);
 }
-/* .nav {
-  width: 1140px;
+.header-container{
   display: flex;
+  justify-content: right;
+  margin-right: 40px;
 
+}
+.nav {
+  width: 1140px;
   justify-content: space-between;
-} */
+} 
 .nav-list{
   display: flex;
   justify-content: flex-end;
   align-items: center;
   list-style: none;
 }
-
+.nav-link :hover{
+  background-color: rgb(126, 128, 155);
+}
 .nav-link {
     transition: .3s;
     position: relative;
@@ -50,54 +57,32 @@ body{
     color: rgb(15, 16, 15);
   }
 
-.container {
-  max-width: 1440px;
+.main {
+    max-width: 1440px;
     display: flex;
-  justify-content: space-between;
+    justify-content: space-between;
     min-height: 50px;
-}
-
-.header-container{
-  display: flex;
-  justify-content: right;
-  margin-right: 40px;
-
-}
-/* .main-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-} */
-
-/* .section{
-    width: 50%;
-} */
-/* .section-title{
-    font-size: 20px;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    color: #829985;
-} */
-
-.main{
-  margin-bottom: auto;
+    margin-bottom: auto;
 }
 
 .left-aside {
     display: flex;
     flex-direction: column;
-    width: 40%;
-    background-color: rgb(205, 239, 168);
-    justify-content: center;
+    width: 50%;
+    background-color: rgb(229, 233, 225);
+   
   
 }
 .profile-section{
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-top: 57px;
 }
 
+.profile-section img{
+  display: flex;
+ margin-bottom: 50px;
+}
 .contacts h2{
   display: flex;
   justify-content: center;
@@ -108,23 +93,61 @@ body{
   display: flex;
   flex-direction: column;
  
-
+}
+.all-skills{
+  display: flex;
+}
+.skills-text{
+    width: 60px;
+    margin-right: 15px;
+    font-weight: 400;
+}
+.skills-list{
+    display: flex;
+    align-items: center;
+    
+}
+.skills-item{
+    width: 15px;
+    height: 15px;
+    background-color: rgb(223, 160, 160);
+    border-radius: 50%;
+    margin-right: 5px;
+    transition: all .3s linear;
+    display: inline-block;
 }
 
+.gray{
+  background-color: rgba(54, 54, 104, 0.6);
+}
 .section-title{
 text-align: center;
 }
 .contact-list{
   display: flex;
+  flex-direction: column;
+}
+.contact-item{
+  display: flex;
+  align-items: center;
+}
+.contact-item p{
+  padding-left: 10px;
+
+}
+.lang-item{
+  display: flex;
+  flex-direction: column;
   margin-left: 20px;
 }
 .right-aside {
     display: flex;
     flex-direction: column;
-    background-color: rgb(226, 239, 207);
+    background-color: rgb(229, 232, 226);
     justify-content: center;
     padding-left: 40px;
     padding-right: 40px;
+
 }
 .about {
   margin-top: 40px;
@@ -132,49 +155,56 @@ text-align: center;
 .education {
   margin-top: 40px;
 }
-.code {
+.code-section {
   margin-top: 40px;
-  text-align: center;
 }
-.projects-section {
-  margin-top: 40px;
+/* .projects-section {
+ 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
+} */
 .project-title{
   text-align: center;
 }
 .project{
   display: flex;
+  width: 900px;
+  flex-wrap: wrap;
   margin-left: 20px;
   margin-right: 20px;
 }
 
-.museum{
+.project-item{
   margin-right: 20px;
 }
-.experience {
-  margin-top: 40px;
+
+/* .experience-section {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+
+} */
+
+.experience-section{
+  margin-top: 20px;
 }
+
 .footer {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  justify-content:space-around;
   max-width: 1440px;
-  background:hsl(236, 52%, 76%);
+  background-color: rgb(233, 159, 159);
   text-align: center;
   padding-left: 40px;
   padding-right: 40px;
 }
 
-@media (max-width: 1440px){
-.container {
-    padding: 0 20px;
+.footer a{
+  text-decoration: none;
+  color: black;
 }
-}
+
 @media (max-width: 768px) {
     .section {
       width: 100%;
