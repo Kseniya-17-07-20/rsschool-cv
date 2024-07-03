@@ -12,3 +12,19 @@ return ('Feel free co contact me!')
 }
 greet()
 ```
+ ### Contacts:
+
+   **E-mail:** kseniya.i369@mail.ru 
+
+   **LinkedIn:** https://www.linkedin.com/in/kseniya-i-60225b217/  
+
+   **GitHub:** https://github.com/Kseniya-17-07-20  
+
+
+### Education 
+
+* Belarusian State University of Economics (2016) High Education Economist
+
+* English Course (Upper-Intermediate)
+
+* IT-Shattle (2021) HTML/ CSS code
